@@ -1,0 +1,61 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    height: 497px;
+  }
+  
+  .oval {
+    width: 288px;
+    height: 288px;
+    background-color: #2C7DFA;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .qr-code {
+    width: 160px;
+    height: 160px;
+    background-image: url('images/qr-codeqr-code.png');
+  }
+  
+  .info h2 {
+    color: #1F314F;
+    width: 288px;
+    font-size: 22px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    font-size: 15px;
+    color: #7D889E;
+    letter-spacing: 0.19px;
+  }
